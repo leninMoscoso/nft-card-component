@@ -67,6 +67,8 @@ h6 {
 }
 
 body {
+  display: grid;
+  place-items: center;
   background: var(--Very-dark-blue-main-BG);
   font-family: var(--Outfit);
   font-size: 18px;
@@ -75,8 +77,8 @@ body {
 .container {
   display: grid;
   grid-auto-rows: 20rem;
-  height: 35rem;
-  width: 20rem;
+  height: 37.5rem;
+  width: 22rem;
 
   margin: 4rem auto;
   background: var(--Very-dark-blue-card-BG);
@@ -103,14 +105,14 @@ picture > a > img {
   color: var(--Soft-blue);
   font-weight: 100;
   line-height: 1.7rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
 }
 
 .eth {
   display: flex;
   align-items: center;
-  width: 17rem;
+  width: 18.8rem;
   height: 10rem;
   margin-bottom: 1rem;
 }
@@ -123,7 +125,7 @@ picture > a > img {
 }
 
 img[alt="clock-icon"] {
-  margin-left: 5.3rem;
+  margin-left: 7.4rem;
 }
 
 .days {
@@ -173,8 +175,8 @@ a:active {
 
 picture {
   background-color: var(--Cyan);
-  width: 270px;
-  height: 270px;
+  width: 300px;
+  height: 300px;
   border-radius: 12px;
   background-image: url("./images/icon-view.svg");
   background-repeat: no-repeat;
